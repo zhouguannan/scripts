@@ -180,7 +180,7 @@ netupspeed=`cat ~/scripts/netupspeed.txt | tail -n1`
 netdownspeed=`cat ~/scripts/netdownspeed.txt | tail -n1`
 #xsetroot -name "   $(print_mem)M  $vel_recv  $vel_trans $(dwm_alsa) [ $(print_bat) ]$(show_record) $(print_date) "
 #xsetroot -name "$(get_battery) $(get_load) $(get_cputemp) $(get_ram) $(get_down_traffic) $(get_up_traffic) $(get_date) $(get_time) $(get_volume) "
-xsetroot -name "$vel_recv $(print_temp) $(get_load) $(get_disk) $(get_ram) $(get_ethernet) $(dwm_weather) $(get_date) $(get_time) $(print_volume) "
+xsetroot -name "$vel_recv $(print_temp) $(get_load) $(get_disk) $(get_ram) $(get_ethernet) $(get_date) $(get_time) $(print_volume) "
 
 # Update old values to perform new calculations
 old_received_bytes=$received_bytes
